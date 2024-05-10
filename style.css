@@ -1,32 +1,32 @@
 @font-face {
 	font-family: 'Bekinder';
 	src: url("/font/bekinder/") format(‘woff2’),
-		url("/font/bekinder/") format(‘truetype’)     
+		url("/font/bekinder/") format(‘truetype’)    ; 
 }
 
 @font-face {
 	font-family: 'Voyager';
     font-weight: thin;
 	src: url("/font/voyager/MADEVoyagerPERSONALUSE-Thin.otf") format('woff2'),
-		url("/font/voyager/MADEVoyagerPERSONALUSE-Thin.otf") format('truetype')     
+		url("/font/voyager/MADEVoyagerPERSONALUSE-Thin.otf") format('truetype');     
 }
 @font-face {
 	font-family: 'Voyager';
     font-weight: light;
 	src: url("/font/voyager/MADEVoyagerPERSONALUSE-Light.otf") format('woff2'),
-		url("/font/voyager/MADEVoyagerPERSONALUSE-Light.otf") format('truetype')     
+		url("/font/voyager/MADEVoyagerPERSONALUSE-Light.otf") format('truetype')  ;   
 }
 @font-face {
 	font-family: 'Novecento';
-    font-weight: light;
-	src: url("./font/novecento/Novecentosans-Light.ttf") format('truetype')
+    	font-weight: light;
+	src: url("./font/novecento/Novecentosans-Light.ttf") format('truetype');
 }
 
 @font-face {
 	font-family: 'Novecento_sans';
-    font-weight: lighter;
-	src: url("/font/novecento_sans/Novecentosanswide-UltraLight.woff2") format('woff2'),
-		url("/font/novecento_sans/Novecentosanswide-UltraLight.ttf") format('truetype')     
+    	font-weight: lighter;
+	src: url("./font/novecento_sans/Novecentosanswide-UltraLight.woff2") format('woff2'),
+		url("./font/novecento_sans/Novecentosanswide-UltraLight.ttf") format('truetype')   ;  
 }
 
 * {
