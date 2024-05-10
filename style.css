@@ -1,32 +1,32 @@
-@font-face {
+/* @font-face {
 	font-family: 'Bekinder';
 	src: url("/font/bekinder/") format(‘woff2’),
-		url("/font/bekinder/") format(‘truetype’)    ; 
+		url("/font/bekinder/") format(‘truetype’)     
 }
 
 @font-face {
 	font-family: 'Voyager';
     font-weight: thin;
 	src: url("/font/voyager/MADEVoyagerPERSONALUSE-Thin.otf") format('woff2'),
-		url("/font/voyager/MADEVoyagerPERSONALUSE-Thin.otf") format('truetype');     
+		url("/font/voyager/MADEVoyagerPERSONALUSE-Thin.otf") format('truetype')     
 }
 @font-face {
 	font-family: 'Voyager';
     font-weight: light;
 	src: url("/font/voyager/MADEVoyagerPERSONALUSE-Light.otf") format('woff2'),
-		url("/font/voyager/MADEVoyagerPERSONALUSE-Light.otf") format('truetype')  ;   
-}
+		url("/font/voyager/MADEVoyagerPERSONALUSE-Light.otf") format('truetype')     
+} */
 @font-face {
 	font-family: 'Novecento';
-    	font-weight: light;
-	src: url("./font/novecento/Novecentosans-Light.ttf") format('truetype');
+    font-weight: light;
+	src: url("./font/novecento/Novecentosans-Light.ttf") format('truetype')
 }
 
 @font-face {
 	font-family: 'Novecento_sans';
-    	font-weight: lighter;
+    font-weight: lighter;
 	src: url("./font/novecento_sans/Novecentosanswide-UltraLight.woff2") format('woff2'),
-		url("./font/novecento_sans/Novecentosanswide-UltraLight.ttf") format('truetype')   ;  
+		url("./font/novecento_sans/Novecentosanswide-UltraLight.ttf") format('truetype')     
 }
 
 * {
@@ -64,12 +64,18 @@ body {
 
 /* ----------------------------------- Navigation ----------------------------------- */
 #navigation{
+    position:relative;
     display: flex;
     justify-content: center;
     width:100vw;
 }
 nav{
+    position:absolute;
+    top:0;
     background-color: black;
+    width:100%;
+    text-align: center;
+
 }
 
 ul {
@@ -82,6 +88,7 @@ li {
 }
 
 li a {
+    
     font-family: "Novecento_sans";
     text-transform: uppercase;
     display: inline-block;
@@ -362,7 +369,7 @@ li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    opacity:0.2;
+    opacity:0.12;
     z-index:-1;
     background-color: black;
     }
